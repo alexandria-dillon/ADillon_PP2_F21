@@ -1,0 +1,25 @@
+//Declare variables
+float x = 0.0;
+float y = 0.0;
+//2. Set display size
+void setup() {
+  size(100,100); 
+}
+
+void draw() {
+  background(204);
+    line(0, 0, 0, y);
+    y += 1;
+    if (y > 99){
+      y = 0;
+    
+    y += 3;
+    x += 0;
+    
+    
+  
+
+  }
+
+
+}
